@@ -1,33 +1,30 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    font-size: 20px;
+    box-sizing: border-box;
+    border: .1vw solid; /*For convinience only, will be removed*/
+    padding: 1vw;
+    margin: 1vw;
+    text-align: justify;
+    }
 
-}
-h1 {
-    text-align: center;
-   
-}
+header section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-h2 {
-    text-align: center;
-    max-width: 800px;  
-    margin: auto; 
-}
+    }
 
-form {
-    text-align: center;
-    
+section img {
+    width: 20vw;
+    height: 20vw;  
+    }
+ 
+nav {
+    text-align: justify;
+    justify-content: center;
+    }
 
-}
-
-.actionBtn {
-    color: blue;
-    background-color: aquamarine;
-}
-
-.textPhotoSection {
-    display: grid;
-    grid-template-columns: auto auto;
-    
-}
+li {
+    display: inline-block;
+    }
