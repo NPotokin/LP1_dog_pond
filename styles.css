@@ -1,7 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    border: .1vw solid; /*For convinience only, will be removed*/
+   /* border: .1vw solid; /*For convinience only, will be removed*/
     padding: 1vw;
     margin: 1vw;
     text-align: justify;
@@ -28,3 +28,13 @@ nav {
 li {
     display: inline-block;
     }
+
+body section {
+    display: flex;
+    flex-direction: row;
+}
+
+form label {
+    display: block;
+}
+
