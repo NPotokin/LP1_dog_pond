@@ -1,9 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-   /* border: .1vw solid; /*For convinience only, will be removed*/
+    /*border: .1vw solid; /*For convinience only, will be removed*/
     padding: 1vw;
-    margin: 1vw;
+    margin: .5vw;
     text-align: justify;
     }
 
@@ -21,12 +21,17 @@ section img {
     }
  
 nav {
-    text-align: justify;
+    text-align: center;
     justify-content: center;
     }
 
+ul {
+    text-align: center;
+}
+
 li {
     display: inline-block;
+    text-align: center;
     }
 
 body section {
@@ -36,5 +41,19 @@ body section {
 
 form label {
     display: block;
+}
+
+form input {
+    width: 50vw;
+}
+
+.memb {
+    display: flex;
+}
+
+fieldset {
+    width: 80vw;
+    text-align: center;
+   
 }
 
