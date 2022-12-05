@@ -12,8 +12,12 @@ header section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     }
+
+header section {
+    border-radius: 5vw;
+    background-color: #84b0c9;
+}
 
 section img {
     width: 20vw;
@@ -21,6 +25,8 @@ section img {
     }
  
 nav {
+    border-radius: 5vw;
+    background-color: #84b0c9;
     text-align: center;
     justify-content: center;
     }
@@ -37,7 +43,14 @@ li {
 body section {
     display: flex;
     flex-direction: row;
+    
 }
+
+section article {
+    border-radius: 5vw;
+    background-color: #84b0c9;
+}
+    
 
 form label {
     display: block;
@@ -47,13 +60,37 @@ form input {
     width: 50vw;
 }
 
-.memb {
-    display: flex;
-}
+
 
 fieldset {
     width: 80vw;
     text-align: center;
-   
+    margin: 0.2vw;
 }
 
+label {
+    text-align: center;
+}
+
+
+section div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border-top: .2vw solid;
+}
+
+footer img {
+    width: 5vw;
+    height: 5vw;
+    display: inline;
+}
+
+footer p {
+    display: inline;
+}
+  

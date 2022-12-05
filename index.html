@@ -20,11 +20,11 @@
 
     <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Join</li>
-            <li>Succes stories</li>
-            <li>Testimonials</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#join">Join</a></li>
+            <li><a href="#success">Succes stories</a></li>
+            <li><a href="#members">Business Members</a></li>
         </ul>
     </nav>
 </header>
@@ -32,7 +32,7 @@
 <body>
     <section>
        <article> 
-        <h2>About</h2>
+        <h2 id="about">About</h2>
         <h3>Our story as it is</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -42,13 +42,13 @@
            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
            sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button"><a>Become a member</a></button>
+        <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
         </article>
         <img src="images/chaplin3.png" alt="chaplin3">
     </section>
     <section>
         <article>
-            <h2>Join our club</h2>
+            <h2 id="join">Join our club</h2>
             <h3>And start changing the world for the better</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -58,7 +58,7 @@
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button"><a>Become a member</a></button>
+            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
         </article>
     </section>
     <section>
@@ -74,7 +74,7 @@
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button"><a>Become a member</a></button>
+            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
         </article>
         <article>
             <h2>Platinum Membership</h2>
@@ -88,7 +88,7 @@
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button"><a>Become a member</a></button>
+            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
         </article>
         <article>
             <h2>Rainbow Membership</h2>
@@ -102,13 +102,13 @@
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button"><a>Become a member</a></button>
+            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
         </article>
     </section>
     <section>
         <form>
             <fieldset>
-                <h2>Registration Form</h2>
+                <h2 id="regform">Registration Form</h2>
                 <label for="firstname">First Name</label>
                 <input type="text" id="firstname" name="firstname" required>
                 <label for="lastname">Last Name</label>
@@ -118,13 +118,12 @@
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone" reqired> 
                 <h3>Select membership level</h3>
-                <label class="memb" for="gold">Gold</label>
+                <label for="gold">Gold</label>
                 <input type="radio" id="gold" name="membership" value="gold">
-                <label class="memb for="platinum">Platinum</label>
+                <label for="platinum">Platinum</label>
                 <input type="radio" id="platinum" name="membership" value="platinum">
-                <label class="memb for="rainbow">Rainbow</label>
+                <label for="rainbow">Rainbow</label>
                 <input type="radio" id="rainbow" name="membership" value="rainbow">
-                <label for="submit">Submit</label>
                 <input type="submit">
             </fieldset>
         </form>
@@ -132,7 +131,7 @@
     <section> 
         <img src="images/chaplin5.png" alt="chaplin5">
         <article> 
-         <h2>Succes Story</h2>
+         <h2 id="success">Succes Story</h2>
          <h3>Meet Chaplin - our the dog its all began with</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -144,11 +143,31 @@
          </p>
          </article>
      </section>
-    <section>Social proof</section> 
+    <section>
+        <article>
+        <h2 id="members">Be among out top donating Companies</h2>
+        <h3>See our Rainbow Level Members</h3>
+        <div>
+            <div><img src="/images/company1.png" ></div>
+            <div><img src="/images/company2.png" ></div>
+            <div><img src="/images/company3.png" ></div>
+            <div><img src="/images/company4.png" ></div>
+            <div><img src="/images/company5.png" ></div>
+            <div><img src="/images/company6.png" ></div>
+            <div><img src="/images/company7.png" ></div>
+            <div><img src="/images/company8.png" ></div>
+            <div><img src="/images/company9.png" ></div>
+        </div>
+        </article>
+    </section> 
 </body>
 
 <footer>
-
+    <p>Copiright SDHC 2022. All rights reserved</p>
+    <a href="https://www.facebook.com"><img src="/icons/facebook.png"></a>
+    <a href="https://twitter.com"><img src="/icons/twitter.png"></a>
+    <a href="https://www.reddit.com"><img src="/icons/reddit.png"></a>
+    <a herf="https://www.instagram.com"><img src="/icons/instagram.png"></a>
 </footer>
 
 </html>
