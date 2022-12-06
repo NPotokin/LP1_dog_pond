@@ -15,16 +15,16 @@
     <section>
         <img src="images/chaplin1.png" alt="chaplin1">
         <h1>STRAY DOG HELPERS CLUB</h1>
-        <img src="images/chaplin2.png" alt="chaplin2"></imgsrc>
+        <img src="images/chaplin2.png" alt="chaplin2">
     </section>
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#join">Join</a></li>
-            <li><a href="#success">Succes stories</a></li>
-            <li><a href="#members">Business Members</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#join">JOIN</a></li>
+            <li><a href="#success">STORIES</a></li>
+            <li><a href="#members">MEMBERS</a></li>
         </ul>
     </nav>
 </header>
@@ -32,21 +32,22 @@
 <body>
     <section>
        <article> 
-        <h2 id="about">About</h2>
-        <h3>Our story as it is</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            <h2 id="about">About</h2>
+            <h3>Our story as it is</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
            reprehenderit in voluptate velit esse cillum dolore eu fugiat
            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
            sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
+            </p>
+            <button class="btn-to-form" type="button"><a class="accent" href="#regform">Become a member</a></button>
         </article>
         <img src="images/chaplin3.png" alt="chaplin3">
     </section>
     <section>
+        <img src="images/chaplin6.png" alt="chaplin6">
         <article>
             <h2 id="join">Join our club</h2>
             <h3>And start changing the world for the better</h3>
@@ -58,10 +59,10 @@
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
+            <button class="btn-to-form" type="button"><a class="accent" href="#regform">Become a member</a></button>
         </article>
     </section>
-    <section>
+    <section class="membership">
         <article>
             <h2>Gold Membership</h2>
             <h3>Good first step</h3>
@@ -69,12 +70,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                nisi ut aliquip ex ea commodo consequat. 
             </p>
-            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
+            <button class="btn-to-form" type="button"><a class="accent" href="#regform">Become a member</a></button>
         </article>
         <article>
             <h2>Platinum Membership</h2>
@@ -83,12 +81,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                nisi ut aliquip ex ea commodo consequat. 
             </p>
-            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
+            <button class="btn-to-form" type="button"><a class="accent" href="#regform">Become a member</a></button>
         </article>
         <article>
             <h2>Rainbow Membership</h2>
@@ -97,18 +92,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button class="btn-to-form" type="button"><a href="#regform">Become a member</a></button>
+                nisi ut aliquip ex ea commodo consequat.
+            <button class="btn-to-form" type="button"><a class="accent" href="#regform">Become a member</a></button>
         </article>
     </section>
     <section>
         <form>
             <fieldset>
-                <h2 id="regform">Registration Form</h2>
+                <h2 id="regform">Registration Form</h2><br>
                 <label for="firstname">First Name</label>
                 <input type="text" id="firstname" name="firstname" required>
                 <label for="lastname">Last Name</label>
@@ -117,14 +108,14 @@
                 <input type="email" id="email" name="email" required>
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone" reqired> 
-                <h3>Select membership level</h3>
+                <h3>Select membership level</h3><br>
                 <label for="gold">Gold</label>
                 <input type="radio" id="gold" name="membership" value="gold">
                 <label for="platinum">Platinum</label>
                 <input type="radio" id="platinum" name="membership" value="platinum">
                 <label for="rainbow">Rainbow</label>
                 <input type="radio" id="rainbow" name="membership" value="rainbow">
-                <input type="submit">
+                <input class="submit" type="submit">
             </fieldset>
         </form>
     </section> 
